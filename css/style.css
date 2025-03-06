@@ -7,30 +7,31 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 .container {
-  max-width: 360px;
-  height: 680px;
-  margin: 60px auto;
+  max-width: 330px;
+  height: 600px;
+  margin: 40px auto;
   background: #ecf1fd;
-  padding: 30px;
+  padding: 40px;
   box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
   border-radius: 20px;
   backdrop-filter: blur(10px);
   border: 1px solid #ffffff42;
 }
 .pindrop {
-  max-width: 8%;
+  max-width: 10%;
   height: auto;
   margin-left: -5px;
 }
 h1 {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 36px;
+  font-size: 46px;
   color: #d92c7b;
+  margin-top: 10px;
 }
 .city {
   display: flex;
-  margin: 30px 0;
+  margin: 20px 0px 20px 0px;
   justify-content: space-between;
   padding: 20px 0px 20px 0px;
   border-bottom: 1px dashed rgb(255, 255, 255);
@@ -45,18 +46,20 @@ h2 {
 .date {
   opacity: 0.5;
   line-height: 30px;
+  font-size: 17px;
 }
 .time {
   font-size: 30px;
   font-weight: bold;
   color: #d92c7b;
-  margin-right: 30px;
+  display: inline-flex;
+  align-items: center;
 }
 .time small {
   font-size: 16px;
   vertical-align: middle;
   opacity: 70%;
-  margin-right: 20px;
+  margin-left: 10px;
 }
 select {
   display: block;
