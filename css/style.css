@@ -13,6 +13,8 @@ body {
   padding: 30px;
   box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
   border-radius: 20px;
+  backdrop-filter: blur(10px);
+  border: 1px solid #ffffff42;
 }
 h1 {
   text-align: center;
